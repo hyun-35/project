@@ -1,0 +1,21 @@
+{% load static%}
+{% block content %}
+
+
+
+<div class="container">
+  <img src="{% static '/number.png' %}" alt="">
+  <img src="{% static '/local_num.png' %}" alt="">
+  <img src="{% static '/restnum.png' %}" alt="">
+  <img src="{% static '/per.png' %}" alt="">
+  <img src="{% static '/clinicnum.png' %}" alt="">
+
+</div>
+
+
+<body> 
+  <p><input type="submit" name= area value={{area.0}}> <input type="submit" name= "result" value={{area.1}}> <input type="submit" name= "result" value={{area.2}}></p> 
+</body> 
+
+
+{% endblock content %}
